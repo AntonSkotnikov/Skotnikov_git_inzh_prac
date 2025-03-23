@@ -7,9 +7,9 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 После этого надо прикрепить публичную часть ключа к своему аккаунту на GitHub. Выполните команду:
 cat ~/.ssh/ed25519.pub
 
-И скопируйте выведенные символы. Далее зайдите в настройки ключей в GitHub: https://github.com/settings/keys. Нажмите кнопку New SSH key. Вставьте скопированное в поле Key. В поле Title можно задать заголовок добавленного ключа, например, "Ключ на WSL". После нажмите Add SSH key.\
+И скопируйте выведенные символы. Далее зайдите в настройки ключей в GitHub: https://github.com/settings/keys. Нажмите кнопку New SSH key. Вставьте скопированное в поле Key. В поле Title можно задать заголовок добавленного ключа, например, "Ключ на WSL". После нажмите Add SSH key.
 
-Зайдите на страницу созданного репозитория, нажмите Code, выберите вкладку SSH и скопируйте url, например, git@github.com:AntonSkotnikov/Skotnikov_git_inzh_prac.git\
+Зайдите на страницу созданного репозитория, нажмите Code, выберите вкладку SSH и скопируйте url, например, git@github.com:AntonSkotnikov/Skotnikov_git_inzh_prac.git
 
 После этого:
 git remote add origin git@github.com:Panterrich/IlabSeminars.git
